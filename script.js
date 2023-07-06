@@ -1,9 +1,14 @@
 const heading = document.getElementById("adviceid")
 const quotes = document.getElementById("advicetext")
 
-function callapi(){
+ const callapi = async()=> {
+    const res = await fetch('https:api.adviceslip.com/advice')
+    const data = await res.json();
+    console.log(data);
+    heading.innerHTML = data.slip.id
+    quotes.innerHTML = data.slip.advice
+ }
 
-}
 
 
 
