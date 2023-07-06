@@ -1,0 +1,52 @@
+:root{
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    
+    /* ### Neutral */
+    
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    background-color: var(--Dark-Blue);
+    }
+    img{
+        display: inline-block;
+        height: auto;
+        width: auto;
+    }
+    .control{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    button{
+        margin-inline: 40%;
+        align-items: center;
+        padding-block: 1rem;
+        background-color: var(--Neon-Green);
+        border-radius: 10rem;
+        margin-bottom: -2rem;
+        margin-top: 2rem;
+        
+    }
+main{
+    position: relative;
+     background-color: var(--Dark-Grayish-Blue);
+     text-align: center;
+    }   
+p{
+  color: var(--Neon-Green);
+  padding-top: 2rem;
+ }     
+
+ h1{
+    color: var(--Light-Cyan);
+   }
